@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Component(props: any) {
+function Comp(props: any) {
+  console.log(props);
   return (
     <div>
       <Link to="/">Home</Link>
       <Link to="/comp">Comp</Link>
       <p>{props.counter.count}</p>
       <button onClick={props.increment}>Increment</button>
-      <button onClick={props.decrement}>Decrement</button>
     </div>
   );
 }
 
-export default Component;
+export default Comp;

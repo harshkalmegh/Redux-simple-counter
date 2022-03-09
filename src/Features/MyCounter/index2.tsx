@@ -20,4 +20,4 @@ const state = (state: any) => {
   };
 };
 
-export default connect(state, dispatch)(Component);
+export default connect(state, dispatch)(Comp);
